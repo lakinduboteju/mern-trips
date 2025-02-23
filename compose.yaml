@@ -1,0 +1,10 @@
+services:
+  dev:
+    container_name: mern-trips-dev
+    image: node:22.14
+    ports:
+      - "3000:3000" # React
+    volumes:
+      - $PWD:/code
+    working_dir: /code
+    command: ["sleep", "infinity"]
