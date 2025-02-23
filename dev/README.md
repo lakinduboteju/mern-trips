@@ -1,5 +1,7 @@
 # Google Maps Test
 
+![Screenshot](./screenshot.png)
+
 ## Development
 
 ``` bash
